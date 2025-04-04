@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<String> generateUnitTests(Future<String> codeFileFuture) async {
-  final apiKey = 'AIzaSyAw_khFoHB3Aodmlo9pWrPWrewgk5CGjbc'; // Replace with your actual API key
+  final apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
   final apiUrl =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey';
 
