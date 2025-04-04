@@ -12,12 +12,10 @@
 
 ## Installation
 
-* Download and extract the project folder.
-
 * Navigate to the project directory:
 
 ```bash
-cd sample_project
+cd test_generator_ai
 ```
 
 * Install dependencies:
